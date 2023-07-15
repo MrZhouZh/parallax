@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <div class="container">
+    <div class="container-inner">
+      <div class="background"></div>
+      <section id="intro" class="wrapper">
+        <h1 class="name">Parallax Demo</h1>
+        <h2 class="byline">An experiment by Dave Gamache</h2>
+      </section>
+      <section id="explosion" class="wrapper">
+        <p class="explosion-byline">Here's an example of 16 elements scaling, fading and moving at once.</p>
+        <ul id="domExplosionList">
+          <li class="dom-explosion-item dei-1"></li>
+          <li class="dom-explosion-item dei-2"></li>
+          <li class="dom-explosion-item dei-3"></li>
+          <li class="dom-explosion-item dei-4"></li>
+          <li class="dom-explosion-item dei-5"></li>
+          <li class="dom-explosion-item dei-6"></li>
+          <li class="dom-explosion-item dei-7"></li>
+          <li class="dom-explosion-item dei-8"></li>
+          <li class="dom-explosion-item dei-9"></li>
+          <li class="dom-explosion-item dei-10"></li>
+          <li class="dom-explosion-item dei-11"></li>
+          <li class="dom-explosion-item dei-12"></li>
+          <li class="dom-explosion-item dei-13"></li>
+          <li class="dom-explosion-item dei-14"></li>
+          <li class="dom-explosion-item dei-15"></li>
+          <li class="dom-explosion-item dei-16"></li>
+        </ul>
+      </section>
+      <section id="images" class="wrapper">
+        <p class="images-byline">Or better yet, a realistic example of showcasing some design work.</p>
+        <p class="images-byline-2">Really, anything is possible &hellip;</p>
+        <img id="mediumHomepage" class="raw-page" src="./img/oversized-raw-homepage.jpg">
+        <div class="iphone">
+          <img class="iphone-frame" src="./img/iphoneframe.png">
+          <div class="iphone-viewport">
+            <img id="medium-profile-iphone" class="iphone-content" src="./img/medium-profile-iphone-fullsize.jpg">
+            <img id="davegamache-dot-com" class="iphone-content" src="./img/davegamache-rotated.jpg">
+          </div>
+        </div>
+      </section>
+      <section id="links">
+        <p class="links-byline">Learn how to make your parallax site smooth like this one.</p>
+        <a class="btn" href="https://medium.com/@dhg/82ced812e61c">Read about it on Medium</a>
+      </section>
+    </div>
+    <div class="twitter">
+      <a href="https://twitter.com/dhg" class="twitter-follow-button" data-show-count="false">Follow @dhg</a>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://davegamache.com/parallax" data-text="A parallax demo that scrolls smooth...even on retina! (desktop only)" data-via="dhg">Tweet</a>
+    </div>
+  </div>
+  <h3 class="error">Whoops! Right now this demo doesn't handle resizing or browsers less than 1000px wide. Reload this page or get on a laptop!</h3>
+
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="./picasso.js"></script>
+
+  <!-- <script type="module" src="/scripts/parallax.js"></script> -->
+
+</body>
+</html>
