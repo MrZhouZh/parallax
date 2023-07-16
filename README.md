@@ -8,3 +8,4 @@ Example of parallax
 
 - [Fixing a parallax scrolling website to run in 60 FPS](http://kristerkari.github.io/adventures-in-webkit-land/blog/2013/08/30/fixing-a-parallax-scrolling-website-to-run-in-60-fps/)
 
+- [Parallax example - hobolobo](http://hobolobo.net/)
